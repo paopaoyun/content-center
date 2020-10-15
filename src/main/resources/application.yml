@@ -12,10 +12,10 @@ spring:
   application:
     name: content-center-service
 
-  cloud:
-    nacos:
-      discovery:
-        server-addr: 192.168.95.130:8848
+  #cloud:
+   # nacos:
+    #  discovery:
+     #   server-addr: 127.0.0.1:80
 
   jackson:
     time-zone: GMT+8
